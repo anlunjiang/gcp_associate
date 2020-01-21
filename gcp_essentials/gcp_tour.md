@@ -32,8 +32,7 @@ Central dev hub of most projects - includes web console and status dashboard. Us
 **Zonal Resources** - VM Instances, types and disks
 
 > Services: Hardware and Software products in GCP are now services that are provided
-* **Compute**: houses a variety of machine types that support any type of workload. The different computing options let you decide how 
-* **involved** you want to be with operational details and infrastructure amongst other things.
+* **Compute**: houses a variety of machine types that support any type of workload. The different computing options let you decide how you want to be with operational details and infrastructure amongst other things.
 * **Storage**: data storage and database options for structured or unstructured, relational or non relational data.
 * **Networking**: services that balance application traffic and provision security rules amongst other things.
 * **Stackdriver**: a suite of cross-cloud logging, monitoring, trace, and other service reliability tools.
@@ -41,33 +40,18 @@ Central dev hub of most projects - includes web console and status dashboard. Us
 * **Big** Data: services that allow you to process and analyze large datasets.
 * **Artificial Intelligence**: a suite of APIs that run specific artificial intelligence and machine learning tasks on the Google Cloud platform.
 
+## Roles and Permissions
 
-## Ways to interact with services and resources
-* Google Cloud Console
-* CLI - Cloud Shell is an in-browser command prompt execution environment to manage resources and services in your GCP project.
-* Client Libraries - API
+Cloud Identity and Access Management (IAM) service can be used to inspect and modify roles and permissions. This can be viewed easily on the dashboard  side panel **IAM & admin**  
 
 
-## IAM Internet Access Management 
+| Primitive Role | Permissions |
+|----------------|-------------|
+| viewer         | Permissions to read-only actions that do not affect stat (viewing but not modifying existing resources or data) |
+| editor         | All viewer permissions + permissions for actions that modify state, such as changing existing resources         |
+| owner          | All editor permissions + able to manage roles and permissions for a project, setup billing for a project        | 
 
-Group accounts (gmail accounts) into groups and assign roles to that account   
-Policy: associate roles to member - each association is a policy 
+Note that these are all **primitive roles**. It is better to now use predefined or custom roles 
 
-Attach policy to google resource or a project / all child resources and project will inherit that policy  
-assign policies to folders? (nuance to check)
-
-## 3 main types of roles
-* Primitive: Historical GCP roles, Avoid as can include wide range of permissions across all GCP services (Owner, Editor, Viewer) should be predefined ones like storageViewer
-* Predefined: Like AD Groups, finer access control than primitive roles 
-* Custom:  
-
-
-# Cloud IAM Qwiklab
-
-
-Buckets are globally unique - and can be multi region  
-be aware of the data you're storing with the bucket and complies with GDPR
-
-Storage Class: Latency  - nearline, archive (cold start) depends of frequency of data reads
-
+## APIs and Services
 
