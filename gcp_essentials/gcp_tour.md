@@ -55,3 +55,20 @@ Note that these are all **primitive roles**. It is better to now use predefined 
 
 ## APIs and Services
 
+Can be called either directly or via client libraries. They shuld have info on  usages and documentation
+
+## Cloud Shell
+
+An in-browser command prompt execution environment that is used to manage resources and services within a GCP project
+
+> `gcloud auth list`  
+
+```Credentialed Accounts
+ACTIVE  ACCOUNT
+*       gcpstaging23396_student@qwiklabs.net
+To set the active account, run:
+    $ gcloud config set account `ACCOUNT` 
+```
+
+The main GCP toolkit is **gcloud** used for actions like resource management and authentication
+
