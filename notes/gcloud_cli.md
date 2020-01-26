@@ -13,5 +13,7 @@ This is the primary CLI to GCP - Used to create and manage
 > `gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone [your_zone]` - create a new vm instance  
 > `gcloud compute instances create --help ` - will point out all the defaults when creating a VM instance  
 > `gcloud config set compute/zone` - bypass having to set --zone each time  
-> `gcloud config set compute/region` - bypass having to set region
-> 
+> `gcloud config set compute/region` - bypass having to set region  
+> `gcloud compute instances get-serial-port-output instance-1 --zone us-central1-a` - see if a windows server vm is ready for RDP  
+> `gcloud compute ssh gcelab2 --zone [YOUR_ZONE]` - SSH into your linux VM instances from cli
+

@@ -1,9 +1,4 @@
 
-## Ways to interact with services and resources
-* Google Cloud Console
-* CLI - Cloud Shell is an in-browser command prompt execution environment to manage resources and services in your GCP project.
-* Client Libraries - API
-
 
 ## IAM Internet Access Management 
 

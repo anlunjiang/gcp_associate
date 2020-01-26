@@ -59,3 +59,13 @@ Note: You can set the default region and zones that gcloud uses if you are alway
 ## SSH via CLI
 
 > `gcloud compute ssh gcelab2 --zone [YOUR_ZONE]`
+
+## Windows server VM
+Instead of Linux, you can create a windows server VM instance by changing boot disk to Windows Server 2012 R2 Datacenter    
+
+You can then RDP (Remote desktop protocol) into the server once you run 
+> `gcloud compute instances get-serial-port-output instance-1 --zone us-central1-a`
+
+and `Finished running startup scripts` is the output
+
+Once done you can then RDP in using chrome RDP extension using the credentials you set when setting up RDP configuration
