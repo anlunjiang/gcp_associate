@@ -1,0 +1,48 @@
+DOCKET and KUBERNETES
+
+docker history image - can vw all layers if a image - described in DockerFiles
+
+
+docker compose can define and run multi container apps in YAMP
+* start stop services
+* setup ports
+* expose API to host 
+etc
+Uusally a yaml file like:
+
+version: "3" 
+services:
+    api:
+        image:
+        ports:
+            - "5000:5000"
+        depends_on:
+            - db
+        environment:
+             DATABASE_URL=
+    db:
+        image:
+        etc
+
+Running this will spin up all the docker containers from the specified images
+
+------------------------------------------------------------------------------------
+
+KUBERNETES (kube, k8s)
+
+(docker) container orchestration at scale
+
+framework to run dist systems resiliently handling scaling, failover and provides deploy patterns
+
+Nodes  -server
+nodes run pods, same ip and network and nodes, considered stateless, not affecting the main container
+
+
+all pods share storage space - but you canuse a volume mount to connect pods in different containers
+
+
+
+
+
+
+
