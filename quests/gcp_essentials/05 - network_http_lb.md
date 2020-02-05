@@ -138,7 +138,7 @@ Overview:
 
 This image will make more sense:
 
-![External and Internal Load Balancers](../images/http_lb.PNG =1000x)
+![External and Internal Load Balancers](../../images/http_lb.PNG =1000x)
 
 * A forwarding rule directs incoming requests to a target HTTP proxy.
     * Forwarding rules route traffic by IP address, port and protocol to a LB config of target proxy, URL map and one or more backend service
