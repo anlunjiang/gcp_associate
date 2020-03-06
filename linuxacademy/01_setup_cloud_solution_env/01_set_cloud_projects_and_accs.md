@@ -72,3 +72,6 @@ There are 3 main types of roles in GCP
 * Custom Roles - Like predefined but can be merged and very targeted - following **Principle of least privilege**
     * Users should only get the access they need and nothing more 
 
+# Enabling APIs
+
+Users would need to access some apis to test out and play around it
