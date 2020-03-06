@@ -8,11 +8,6 @@ Policy: associate roles to member - each association is a policy
 Attach policy to google resource or a project / all child resources and project will inherit that policy  
 assign policies to folders? (nuance to check)
 
-## 3 main types of roles
-* Primitive: Historical GCP roles, Avoid as can include wide range of permissions across all GCP services (Owner, Editor, Viewer) should be predefined ones like storageViewer
-* Predefined: Like AD Groups, finer access control than primitive roles 
-* Custom:  
-
 
 # Cloud IAM Qwiklab
 
