@@ -9,11 +9,11 @@ TODO List:
 * ~~Create Project~~
 * ~~Create IAM User for John with ML Developer Role~~
 * ~~Enable ML API~~
-* Setup Stackdriver Account
-* Link GSuite identities to users
-* Create a Billing account
-* Setup Budget and Alerts
-* Install Cloud SDK
+* ~~Setup Stackdriver Account~~
+* ~~Link GSuite identities to users~~
+* ~~Create a Billing account~~
+* ~~Setup Budget and Alerts~~
+* ~~Install Cloud SDK~~
 * Create Cloud Presentation
 
 # Projects
