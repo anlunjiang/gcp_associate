@@ -4,4 +4,12 @@ https://www.lucidchart.com/documents/embeddedchart/7bcc2ab1-a495-4b1c-bbc9-ba487
 
 ## Linux Academy
 
-![module_hierarchy](images/storage_options.png =800x)
+Notes from the Linux academy GCP Associate Cloud Engineer Course
+
+## Notes
+
+Notes from documentation from official gcp pages
+
+## Quests
+
+Qwiklabs done and notes
