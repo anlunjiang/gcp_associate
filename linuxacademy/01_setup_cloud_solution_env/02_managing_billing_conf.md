@@ -21,7 +21,7 @@ Two types of billing accounts:
 Default is self service
 
 ## How do I manage access to billing info
-Cloud IAM to assign specific Billing Roles
+* Cloud IAM to assign specific Billing Roles
     * CTO - Billing Admin
     * Dev - Billing User - can create billable projects
     * Accounting - Billing Viewer
