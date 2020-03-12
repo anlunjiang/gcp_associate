@@ -7,7 +7,7 @@
 * Optimal for ultra high performance workloads (GPUs and Local SSDs, 3D rendering)
 * Also good for content management systems, databases and non containerised apps
 
-# Creating an Instance
+## Creating an Instance
 * Select name unique to the project
 * Select the region and the zone
 * Machine Type - Hardware config, cpu, ram etc
@@ -26,7 +26,7 @@
     * Good for bulk processing, can help but wont stop the process if is lost
     * Great for STATELESS WORKLOADS
 
-# SSH
+## SSH
 
 After your VM instance is created, you cant then connect into the terminal of the instance via ssh.
 With windows you need to RDP protocol to access the server (chrome RDP plugin works)

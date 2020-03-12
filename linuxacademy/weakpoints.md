@@ -16,4 +16,12 @@
     * Update the package list and install the Cloud SDK
 * Additional groups of Cloud SDK commands that you can install for the gcloud component are __ commands.
     * Alpha and Beta
+* What is an advantage of using a flexible environment with App Engine?
+    * Can customize the runtime
+* Which controller uses desired state configuration and allows us to specify the number of pod instances running on a cluster?
+    * Deployment
+* Which of the following statements are true regarding managed instance groups?
+    * Additional instances are removed 10 minutes after they are no longer required.
+    * They offer high availability, autoscaling, and automatic updates.
+    * They are suitable for stateless applications.
 
