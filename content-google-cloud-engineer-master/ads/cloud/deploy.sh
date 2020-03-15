@@ -15,13 +15,13 @@ set -e
 source ../../common/project_settings.sh
 
 cd ../build
-bash build.sh
+bash build.sh # compile go app to binary
 
 cd ../cloud
-gsutil cp ../build/out/app gs://$PRIVATE_ASSETS/app
+gsutil cp ../build/out/app gs://$PRIVATE_ASSETS/app # cp app binary to private bucket 
 
 # Upload the initial ad image
-gsutil cp juice.jpg gs://$PUBLIC_ASSETS/juice.jpg
+gsutil cp juice.jpg gs://$PUBLIC_ASSETS/juice.jpg # image for initial ad 
 
 # Insert a row to have some data
 gcloud beta spanner rows insert \
