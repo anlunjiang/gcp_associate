@@ -22,7 +22,7 @@ metadata:
   labels:
     app: "products-service"
 spec:
-  replicas: 3
+  replicas: 3 # 3 instances of our pod
   selector:
     matchLabels:
       app: "products-service"
@@ -31,11 +31,11 @@ spec:
       labels:
         app: "products-service"
     spec:
-      containers:
+      containers: # pod defined here
       - name: "products"
         image: "gcr.io/ace-demo-2/products:latest"
         volumeMounts:
-        - name: service-account
+        - name: service-account # service account accesses the volume to get key
           mountPath: "/sa/"
           readOnly: true
         env:
@@ -72,5 +72,5 @@ spec:
     name: "products-service"
     apiVersion: "apps/v1beta1"
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 5 # min and max number of pods based on cpu usage 
   targetCPUUtilizationPercentage: 80
