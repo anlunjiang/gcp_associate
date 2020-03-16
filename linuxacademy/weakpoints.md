@@ -24,4 +24,24 @@
     * Additional instances are removed 10 minutes after they are no longer required.
     * They offer high availability, autoscaling, and automatic updates.
     * They are suitable for stateless applications.
-
+* After creating your Kubernetes cluster, what needs to be done to interact with the Kubernetes cluster?
+    * Run gcloud container clusters get-credentials to authenticate and configure kubectl.
+* Which of the following commands will set the default project?
+    * gcloud config set project [PROJECT_ID]
+* Which command is used to create a Google Cloud Function?
+    * gcloud functions deploy
+* According to Application Default Credentials (ADC), how does a Google Cloud client library locate application credentials?
+    * First, ADC searches for environment variable GOOGLE_APPLICATION_CREDENTIALS to see if the service account key is stored.
+    * If GOOGLE_APPLICATION_CREDENTIALS is not set, then ADC will use the default service account. If the default service account cannot be used, then there will be an error, and you will need to provide the credentials.
+* Which command is used to create a storage bucket for Cloud Storage?
+    * gsutil mb
+* Which command is used to copy to or from a Cloud Storage bucket?
+    * gsutil cp
+* Kubernetes works with _ files to specify the resources that we need.
+    * YAML
+* What command is used to create a Spanner database table?
+    * gcloud spanner databases ddl
+* What is a way to reduce network latency when creating a Kubernetes cluster?
+    * Use the same zone as the other services
+* How are access scopes used?
+    * Access scopes are a legacy predating Cloud IAM. They are used to assign permissions to VM instances.
