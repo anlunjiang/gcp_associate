@@ -8,4 +8,5 @@ export GOPATH="$(dirname $PWD)/vendor"
 # Build the code into the vendor dir.
 bash ../build/build.sh
 
-GOPATH="$(dirname "$PWD")/vendor" gcloud app deploy $GOPATH/src/github.com/linuxacademy/frontend/app.yaml -q
+GOPATH="$(dirname "$PWD")/vendor" gcloud app deploy $GOPATH/src/github.com/linuxacademy/frontend/app.yaml -q 
+# q flag so we dont have to confirm every time we want to deploy
