@@ -45,3 +45,20 @@
     * Use the same zone as the other services
 * How are access scopes used?
     * Access scopes are a legacy predating Cloud IAM. They are used to assign permissions to VM instances.
+* A point-in-time copy of a persistent disk is called a:
+    * Snapshot
+* Which of the following statements are true concerning static IP addresses? Select the most appropriate response.
+    * With a static internal IP address, we can specify the IP address or let Google select an IP address from the range.
+    * With a static external IP address, we cannot specify the IP address. Google selects an IP address from the range.
+* What action is performed by the gcloud config list command?
+    * List the settings for the active configuration
+* Log sinks can export records to which of the following destinations?
+    * Cloud Pub/Sub
+* Which type of scaling can NOT be used by flexible environments?
+    * Basic
+* What action is performed by the gcloud config configurations create command
+    * Create and activate a new configuration
+* Which ways can we can split traffic in App Engine?
+    * Cookie
+    * Random
+    * IP Address
