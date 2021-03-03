@@ -166,6 +166,9 @@ You set the log level for the rest of the application from the Spark context. Fo
 # Manage Data pipelines with Data Fusion and Cloud Composer
 
 Cloud Fusion:  Fully Managed Cloud native data integration service for quickly building data pipelines. Each instance is a managed environment and do not share any metadata or assets.
+* Cloud Data Fusion translates your visually built pipeline into an Apache Spark or MapReduce program
+    * Executes transformations on an ephemeral Cloud Dataproc cluster in parallel
+
 * Control Center - at a glance information
 * Pipelines - Developer Studio
 * Wrangler - Connections, Data Quality and Exploration - Data prep and quick transformations
